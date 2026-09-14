@@ -1,4 +1,4 @@
-\# Python Finance Calculator
+# **# Python Finance Calculator**
 
 
 
@@ -6,7 +6,7 @@ A beginner Python finance calculator that calculates savings, savings rate, and 
 
 
 
-\## Project Overview
+### **## Project Overview**
 
 
 
@@ -14,47 +14,38 @@ The calculator asks the user to enter their monthly income, monthly expenses, an
 
 
 
-\## Features
+#### \## Features
 
 
 
-\* Accepts monthly income, expenses, and investment information from the user.
-
-\* Calculates monthly savings after expenses and investment.
-
-\* Calculates the user's savings rate as a percentage of income.
-
-\* Provides a savings assessment based on the calculated savings rate.
-
-\* Displays financial results in a clear and readable format.
+* Accepts monthly income, expenses, and investment information from the user.
+* Calculates monthly savings after expenses and investment.
+* Calculates the user's savings rate as a percentage of income.
+* Provides a savings assessment based on the calculated savings rate.
+* Displays financial results in a clear and readable format.
 
 
 
 \## Savings Assessment
 
-
+---
 
 The calculator uses the following thresholds to assess the user's savings rate:
 
 
-
-| Savings Rate | Assessment            |
-
-| ------------ | --------------------- |
-
-| 20% or more  | Strong savings rate   |
-
-| 10% – 19.99% | Moderate savings rate |
-
-| Below 10%    | Needs improvement     |
+|**Savings Rate**|**Assessment**|
+|-|-|
+|20% or more|Strong savings rate|
+|10% – 19.99%|Moderate savings rate|
+|Below 10%|Needs improvement|
 
 
 
-> \*\*Note:\*\* These thresholds are used as a simple benchmark for this beginner project and are not intended to provide financial advice.
+**Note:** These thresholds are used as a simple benchmark for this beginner project and are not intended to provide financial advice.
 
 
 
-\## How It Works
+#### \## How It Works
 
 
 
@@ -78,51 +69,34 @@ The calculator follows these steps:
 
 
 
-\## Calculations
+#### \## Calculations
 
 
 
-\### Savings
-
-
-
-```text
+###### Savings
 
 Savings = Income - Expenses - Investment
 
-```
 
 
-
-\### Savings Rate
-
-
-
-```text
+###### Savings Rate
 
 Savings Rate = (Savings / Income) × 100
 
-```
 
 
-
-\## Example
+**## Example**
 
 
 
 For example, if a user enters:
 
 
-
-| Input              | Amount    |
-
-| ------------------ | --------- |
-
-| Monthly income     | GHS 6,000 |
-
-| Monthly expenses   | GHS 3,000 |
-
-| Monthly investment | GHS 1,000 |
+|**Input**|**Amount**|
+|-|-|
+|Monthly income|GHS 6,000|
+|Monthly expenses|GHS 3,000|
+|Monthly investment|GHS 1,000|
 
 
 
@@ -130,37 +104,30 @@ The calculator produces:
 
 
 
-```text
-
 Savings: GHS 2,000.00
 
 Savings rate: 33.33%
 
 Assessment: Strong savings rate
 
-```
 
 
 
-\## Technologies Used
+
+#### \## Technologies Used
 
 
 
-\* Python
-
-\* Python IDLE
-
-\* Git
-
-\* GitHub
+* Python
+* Python IDLE
+* Git
+* GitHub
 
 
 
-\## Project Structure
+#### \## Project Structure
 
 
-
-```text
 
 python-finance-calculator/
 
@@ -168,11 +135,11 @@ python-finance-calculator/
 
 └── README.md
 
-```
 
 
 
-\## What I Learned
+
+#### \## What I Learned
 
 
 
@@ -180,51 +147,38 @@ This project was developed as part of my Python learning journey. Through this p
 
 
 
-\* Variables and data types
-
-\* User input
-
-\* Type conversion
-
-\* Arithmetic operations
-
-\* Conditional statements (`if`, `elif`, and `else`)
-
-\* Comparison operators
-
-\* Basic financial calculations
-
-\* F-strings and number formatting
-
-\* Git and GitHub version control
+* Variables and data types
+* User input
+* Type conversion
+* Arithmetic operations
+* Conditional statements (`if`, `elif`, and `else`)
+* Comparison operators
+* Basic financial calculations
+* F-strings and number formatting
+* Git and GitHub version control
 
 
 
-\## Future Improvements
-
+#### \## Future Improvements
 
 
 Planned improvements as my Python skills develop include:
 
 
 
-\* Adding input validation and error handling.
-
-\* Allowing users to analyse multiple months of financial data.
-
-\* Adding expense categories and spending analysis.
-
-\* Improving the user interface.
-
-\* Developing a graphical or web-based version of the calculator.
+* Adding input validation and error handling.
+* Allowing users to analyse multiple months of financial data.
+* Adding expense categories and spending analysis.
+* Improving the user interface.
+* Developing a graphical or web-based version of the calculator.
 
 
 
-\## Project Status
+#### \## Project Status
 
 
 
-\*\*Version 1 — Basic Finance Calculator\*\*
+**Version 1 — Basic Finance Calculator**
 
 
 
