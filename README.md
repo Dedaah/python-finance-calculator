@@ -1,4 +1,4 @@
-# \# Python Finance Calculator
+\# Python Finance Calculator
 
 
 
@@ -20,7 +20,7 @@ The calculator asks the user to enter their monthly income, monthly expenses, an
 
 \* Accepts monthly income, expenses, and investment information from the user.
 
-\* Calculates monthly savings after expenses and investments.
+\* Calculates monthly savings after expenses and investment.
 
 \* Calculates the user's savings rate as a percentage of income.
 
@@ -50,7 +50,7 @@ The calculator uses the following thresholds to assess the user's savings rate:
 
 
 
-These thresholds are used as a simple benchmark for the purpose of this beginner project and are not intended to provide financial advice.
+> \*\*Note:\*\* These thresholds are used as a simple benchmark for this beginner project and are not intended to provide financial advice.
 
 
 
@@ -114,15 +114,15 @@ For example, if a user enters:
 
 
 
-```text
+| Input              | Amount    |
 
-Monthly income: GHS 6,000
+| ------------------ | --------- |
 
-Monthly expenses: GHS 3,000
+| Monthly income     | GHS 6,000 |
 
-Monthly investment: GHS 1,000
+| Monthly expenses   | GHS 3,000 |
 
-```
+| Monthly investment | GHS 1,000 |
 
 
 
@@ -163,8 +163,6 @@ Assessment: Strong savings rate
 ```text
 
 python-finance-calculator/
-
-│
 
 ├── finance\_calculator.py
 
